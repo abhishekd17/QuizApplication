@@ -33,34 +33,34 @@ Quiz Master is a professional, production-ready quiz application built with Next
 ### Steps
 
 1. **Clone the repository**
-   \`\`\`bash
+   ```bash
    git clone <repository-url>
    cd quiz-app
-   \`\`\`
+   ```
 
 2. **Install dependencies**
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. **Run the development server**
-   \`\`\`bash
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
 4. **Open in browser**
    - Navigate to `http://localhost:3000`
    - The app will automatically reload on code changes
 
 ### Build for Production
-\`\`\`bash
+```bash
 npm run build
 npm start
-\`\`\`
+```
 
 ## Project Structure
 
-\`\`\`
+```
 quiz-app/
 ├── app/
 │   ├── layout.tsx          # Root layout with metadata
@@ -77,7 +77,7 @@ quiz-app/
 ├── lib/
 │   └── utils.ts            # Utility functions (cn for className merging)
 └── README.md               # This file
-\`\`\`
+```
 
 ## Component Architecture
 
@@ -125,9 +125,9 @@ quiz-app/
 ## API Integration
 
 The app fetches questions from the Open Trivia Database:
-\`\`\`
+```
 https://opentdb.com/api.php?amount=15
-\`\`\`
+```
 
 ### Data Processing
 - Decodes HTML entities in questions and answers
@@ -210,34 +210,22 @@ Tested and compatible with:
 ## Deployment
 
 ### Deploy to Vercel (Recommended)
-\`\`\`bash
+```bash
 npm install -g vercel
 vercel
-\`\`\`
+```
 
 ### Deploy to Netlify
-\`\`\`bash
+```bash
 npm run build
 # Connect your GitHub repo to Netlify
-\`\`\`
+```
 
 ### Deploy to GitHub Pages
-\`\`\`bash
+```bash
 npm run build
 # Push to gh-pages branch
-\`\`\`
-
-## License
-
-This project is open source and available under the MIT License.
-
-## Support
-
-For issues or questions:
-1. Check the troubleshooting section
-2. Review the code comments
-3. Open an issue on GitHub
+```
 
 ---
 
-**Built with ❤️ for CausalFunnel Internship Program**

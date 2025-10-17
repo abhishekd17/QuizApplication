@@ -207,25 +207,5 @@ Tested and compatible with:
 7. **Offline Mode**: Cache questions for offline use
 8. **Mobile App**: React Native version
 
-## Deployment
-
-### Deploy to Vercel (Recommended)
-```bash
-npm install -g vercel
-vercel
-```
-
-### Deploy to Netlify
-```bash
-npm run build
-# Connect your GitHub repo to Netlify
-```
-
-### Deploy to GitHub Pages
-```bash
-npm run build
-# Push to gh-pages branch
-```
-
 ---
 
